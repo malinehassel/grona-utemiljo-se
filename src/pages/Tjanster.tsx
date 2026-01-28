@@ -20,6 +20,7 @@ const services = [
     description: "Löpande och regelbunden skötsel av din trädgård så att du kan njuta utan att behöva arbeta.",
     features: [
       "Gräsklippning",
+      "Ogräsrensning",
       "Häckklippning",
       "Kantskärning",
       "Allmän tillsyn",
