@@ -1,9 +1,7 @@
 import { Link } from "react-router-dom";
 import { Leaf, Phone, Mail, MapPin } from "lucide-react";
-
 export function Footer() {
-  return (
-    <footer className="bg-foreground text-background">
+  return <footer className="bg-foreground text-background">
       <div className="container mx-auto px-6 py-12 md:py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 md:gap-8">
           {/* Company Info */}
@@ -21,10 +19,7 @@ export function Footer() {
                 </span>
               </div>
             </div>
-            <p className="text-background/80 text-sm leading-relaxed">
-              Din lokala trädgårdsmästare i Västerås. Vi skapar och sköter gröna 
-              utemiljöer med omtanke – året runt.
-            </p>
+            <p className="text-background/80 text-sm leading-relaxed">Din lokala trädgårdsmästare i Västerås. Vi skapar och sköter gröna utemiljöer med omtanke – året runt.</p>
           </div>
 
           {/* Quick Links */}
@@ -50,17 +45,10 @@ export function Footer() {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Kontakt</h4>
             <div className="flex flex-col gap-3">
-              <a 
-                href="tel:+46701234567" 
-                className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors"
-              >
-                <Phone className="w-4 h-4" />
+              <a href="tel:+46701234567" className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors">0722-50 81 00<Phone className="w-4 h-4" />
                 070-123 45 67
               </a>
-              <a 
-                href="mailto:info@gronutemiljo.se" 
-                className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors"
-              >
+              <a href="mailto:info@gronutemiljo.se" className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors">
                 <Mail className="w-4 h-4" />
                 info@gronutemiljo.se
               </a>
@@ -78,6 +66,5 @@ export function Footer() {
           </p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 }
