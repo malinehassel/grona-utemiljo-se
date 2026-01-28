@@ -7,7 +7,7 @@ const services = [
   {
     icon: Scissors,
     title: "Trädgårdsskötsel",
-    description: "Löpande skötsel av din trädgård - gräsklippning, ogräsrensning och allmän tillsyn.",
+    description: "Löpande skötsel av din trädgård - gräsklippning, ogräsrensning, och allmän tillsyn.",
   },
   {
     icon: Flower2,
