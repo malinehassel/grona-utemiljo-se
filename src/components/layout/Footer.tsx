@@ -45,8 +45,8 @@ export function Footer() {
           <div>
             <h4 className="font-serif text-lg font-semibold mb-4">Kontakt</h4>
             <div className="flex flex-col gap-3">
-              <a href="tel:+46701234567" className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors">0722-50 81 00<Phone className="w-4 h-4" />
-                070-123 45 67
+              <a href="tel:+46701234567" className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors">​<Phone className="w-4 h-4" />
+                0722-50 81 00     
               </a>
               <a href="mailto:info@gronutemiljo.se" className="flex items-center gap-3 text-sm text-background/80 hover:text-background transition-colors">
                 <Mail className="w-4 h-4" />
