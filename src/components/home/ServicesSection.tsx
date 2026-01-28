@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const services = [{
   icon: Scissors,
   title: "Trädgårdsskötsel",
-  description: "Löpande skötsel av din trädgård - gräsklippning, ogräsrensning, och allmän tillsyn."
+  description: "Löpande skötsel av din trädgård - ogräsrensning, jordförbättring, bevattning och allmän tillsyn."
 }, {
   icon: Flower2,
   title: "Plantering & anläggning",
