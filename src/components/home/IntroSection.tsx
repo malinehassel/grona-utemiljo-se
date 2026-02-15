@@ -23,7 +23,7 @@ export function IntroSection() {
             Välkommen till Grön Utemiljö
           </h2>
           
-          <p className="text-lg text-muted-foreground leading-relaxed">Grön Utemiljö i Västerås AB är ett lokalt trädgårdsföretag som hjälper dig att få en vacker och trivsam utemiljö – året runt. Med passion för det gröna och gedigen erfarenhet tar vi hand om allt från löpande trädgårdsskötsel till större anläggningsprojekt.</p>
+          <p className="text-lg text-muted-foreground leading-relaxed">Grön Utemiljö, i Västerås AB är ett lokalt trädgårdsföretag som hjälper dig att få en vacker och trivsam utemiljö – året runt. Med passion för det gröna och gedigen erfarenhet tar vi hand om allt från löpande trädgårdsskötsel till större anläggningsprojekt.</p>
         </motion.div>
       </div>
     </section>;
