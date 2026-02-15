@@ -8,6 +8,7 @@ import OmOss from "./pages/OmOss";
 import Tjanster from "./pages/Tjanster";
 import Kontakt from "./pages/Kontakt";
 import NotFound from "./pages/NotFound";
+import DnsGuide from "./pages/DnsGuide";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/om-oss" element={<OmOss />} />
           <Route path="/tjanster" element={<Tjanster />} />
           <Route path="/kontakt" element={<Kontakt />} />
+          <Route path="/dns-guide" element={<DnsGuide />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
