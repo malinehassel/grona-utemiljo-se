@@ -68,7 +68,6 @@ const services = [
     description: "Större projekt som markarbeten, stenläggning och trädgårdsrenovering.",
     features: [
       "Stenläggning",
-      "Terrassbygge",
       "Murar & kanter",
       "Dränering",
       "Trädgårdsrenovering",
