@@ -47,7 +47,6 @@ const services = [
       "Buskbeskärning",
       "Häckformning",
       "Rosbeskärning",
-      "Kronreducering",
     ],
   },
   {
