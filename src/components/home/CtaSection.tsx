@@ -18,7 +18,7 @@ export function CtaSection() {
         duration: 0.6
       }} className="max-w-3xl mx-auto text-center">
           <h2 className="font-serif text-3xl md:text-4xl font-semibold mb-4">Redo att förverkliga din trädgårdsdröm?</h2>
-          <p className="text-primary-foreground/90 text-lg mb-8 max-w-xl mx-auto">Kontakta oss för en kostnadsfri konsultation. Vi hjälper dig gärna att skapa den utemiljö du alltid önskat.</p>
+          <p className="text-primary-foreground/90 text-lg mb-8 max-w-xl mx-auto">Kontakta oss för konsultation. Vi hjälper dig gärna att skapa den utemiljö du alltid önskat.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="xl" className="bg-background text-foreground hover:bg-background/90">
               <Link to="/kontakt">Kontakta oss</Link>
