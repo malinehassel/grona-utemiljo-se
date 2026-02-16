@@ -13,7 +13,7 @@ const services = [{
 }, {
   icon: TreeDeciduous,
   title: "Beskärning",
-  description: "Professionell beskärning av träd, buskar och häckar för en frisk och fin trädgård."
+  description: "Professionell beskärning av träd, buskar och häckar för en frisk och välmående trädgård."
 }, {
   icon: Sun,
   title: "Säsongsarbeten",
